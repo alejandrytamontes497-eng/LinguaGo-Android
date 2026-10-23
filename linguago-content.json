@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-23",
-  "description": "LinguaGo 可联网扩充题库；每天任务只是打卡目标，课程可以无限次练习。",
+  "description": "LinguaGo 联网题库：单词、听力、口语可分别同步、筛选、换组。声音可使用在线自然录音；无网络时兼容离线播放。",
   "words": [
     {
       "w": "hello",
@@ -1394,6 +1394,669 @@
       "answer": 2,
       "explain": "说话者推荐均衡饮食。",
       "em": "🥗"
+    }
+  ],
+  "speaking": [
+    {
+      "id": "greeting",
+      "name": "打招呼",
+      "em": "👋",
+      "topic": "日常",
+      "level": "A1",
+      "setting": "在公交站遇到一个新朋友。",
+      "bot": "Hi! How are you today?",
+      "botZh": "你好！今天过得怎么样？",
+      "hint": "I am good, thank you! How about you?",
+      "key": [
+        "good",
+        "thank",
+        "how",
+        "about"
+      ],
+      "next": "I am glad to hear that. What are you doing today?"
+    },
+    {
+      "id": "introduce-hobby",
+      "name": "介绍爱好",
+      "em": "🎸",
+      "topic": "日常",
+      "level": "A1",
+      "setting": "和新朋友聊聊你喜欢的事情。",
+      "bot": "What do you like doing in your free time?",
+      "botZh": "你空闲时喜欢做什么？",
+      "hint": "I like listening to music and reading books.",
+      "key": [
+        "like",
+        "listening",
+        "music",
+        "reading",
+        "books"
+      ],
+      "next": "Cool! How often do you do that?"
+    },
+    {
+      "id": "weather",
+      "name": "聊聊天气",
+      "em": "☀️",
+      "topic": "日常",
+      "level": "A1",
+      "setting": "朋友正在和你聊天气。",
+      "bot": "It is sunny today. Do you like this weather?",
+      "botZh": "今天天气晴朗。你喜欢这样的天气吗？",
+      "hint": "Yes, I like sunny weather because I can walk outside.",
+      "key": [
+        "yes",
+        "like",
+        "sunny",
+        "weather",
+        "because",
+        "walk",
+        "outside"
+      ],
+      "next": "That sounds fun. Where do you like to walk?"
+    },
+    {
+      "id": "family",
+      "name": "介绍家人",
+      "em": "🏠",
+      "topic": "生活",
+      "level": "A1",
+      "setting": "朋友想了解你的家庭。",
+      "bot": "Can you tell me about your family?",
+      "botZh": "你能介绍一下你的家人吗？",
+      "hint": "I live with my parents and my younger brother.",
+      "key": [
+        "live",
+        "parents",
+        "younger",
+        "brother"
+      ],
+      "next": "What do you enjoy doing together?"
+    },
+    {
+      "id": "shopping-price",
+      "name": "询问价格",
+      "em": "🛍️",
+      "topic": "生活",
+      "level": "A1",
+      "setting": "你在商店里看中一件衣服。",
+      "bot": "Hello! Can I help you find something?",
+      "botZh": "你好！需要我帮你找什么吗？",
+      "hint": "How much is this blue T-shirt?",
+      "key": [
+        "how",
+        "much",
+        "blue",
+        "shirt"
+      ],
+      "next": "It is fifteen dollars. Would you like to try it on?"
+    },
+    {
+      "id": "restaurant",
+      "name": "餐厅点餐",
+      "em": "🍽️",
+      "topic": "生活",
+      "level": "A1",
+      "setting": "在餐厅里向服务员点餐。",
+      "bot": "Welcome! Are you ready to order?",
+      "botZh": "欢迎光临！您准备好点餐了吗？",
+      "hint": "Yes, I would like chicken and rice, please.",
+      "key": [
+        "yes",
+        "like",
+        "chicken",
+        "rice"
+      ],
+      "next": "Would you like anything to drink?"
+    },
+    {
+      "id": "phone-call",
+      "name": "电话问候",
+      "em": "📱",
+      "topic": "生活",
+      "level": "A1",
+      "setting": "用英语接听朋友的电话。",
+      "bot": "Hello! Is this Alex?",
+      "botZh": "你好！请问是 Alex 吗？",
+      "hint": "Yes, speaking. Who is calling, please?",
+      "key": [
+        "yes",
+        "speaking",
+        "who",
+        "calling"
+      ],
+      "next": "It is Emma! Do you have a minute to talk?"
+    },
+    {
+      "id": "weekend",
+      "name": "周末计划",
+      "em": "🌳",
+      "topic": "日常",
+      "level": "A1",
+      "setting": "和朋友讨论周末安排。",
+      "bot": "What are you going to do this weekend?",
+      "botZh": "你这周末打算做什么？",
+      "hint": "I am going to visit a park with my friends.",
+      "key": [
+        "going",
+        "visit",
+        "park",
+        "friends"
+      ],
+      "next": "That sounds nice. Which park will you visit?"
+    },
+    {
+      "id": "directions",
+      "name": "问路",
+      "em": "🗺️",
+      "topic": "旅行",
+      "level": "A1",
+      "setting": "在陌生城市想去地铁站。",
+      "bot": "Hi there! Do you need help?",
+      "botZh": "你好，需要帮忙吗？",
+      "hint": "Excuse me, where is the nearest subway station?",
+      "key": [
+        "excuse",
+        "where",
+        "nearest",
+        "subway",
+        "station"
+      ],
+      "next": "Go straight and turn left at the bank."
+    },
+    {
+      "id": "taxi",
+      "name": "乘坐出租车",
+      "em": "🚕",
+      "topic": "旅行",
+      "level": "A1",
+      "setting": "在机场打车去酒店。",
+      "bot": "Hello! Where would you like to go?",
+      "botZh": "你好！您想去哪里？",
+      "hint": "Please take me to the city center hotel.",
+      "key": [
+        "take",
+        "city",
+        "center",
+        "hotel"
+      ],
+      "next": "Sure! Do you have the address?"
+    },
+    {
+      "id": "hotel-checkin",
+      "name": "酒店入住",
+      "em": "🏨",
+      "topic": "旅行",
+      "level": "A2",
+      "setting": "办理酒店入住手续。",
+      "bot": "Good evening! Do you have a reservation?",
+      "botZh": "晚上好！您有预订吗？",
+      "hint": "Yes, I booked a room for two nights.",
+      "key": [
+        "yes",
+        "booked",
+        "room",
+        "two",
+        "nights"
+      ],
+      "next": "May I see your passport, please?"
+    },
+    {
+      "id": "airport-checkin",
+      "name": "机场值机",
+      "em": "✈️",
+      "topic": "旅行",
+      "level": "A2",
+      "setting": "在机场办理值机。",
+      "bot": "Good morning! Where are you flying today?",
+      "botZh": "早上好！您今天飞往哪里？",
+      "hint": "I am flying to Bangkok. Here is my passport.",
+      "key": [
+        "flying",
+        "bangkok",
+        "here",
+        "passport"
+      ],
+      "next": "Do you have any bags to check?"
+    },
+    {
+      "id": "train-ticket",
+      "name": "买火车票",
+      "em": "🚆",
+      "topic": "旅行",
+      "level": "A2",
+      "setting": "在售票柜台购买车票。",
+      "bot": "Hello! How can I help you?",
+      "botZh": "你好！我能帮你什么？",
+      "hint": "I would like one ticket to the city center.",
+      "key": [
+        "like",
+        "one",
+        "ticket",
+        "city",
+        "center"
+      ],
+      "next": "One way or round trip?"
+    },
+    {
+      "id": "lost-item",
+      "name": "寻找失物",
+      "em": "🎒",
+      "topic": "旅行",
+      "level": "A2",
+      "setting": "你把背包落在出租车上。",
+      "bot": "What seems to be the problem?",
+      "botZh": "发生什么事了？",
+      "hint": "I left my backpack in a taxi this morning.",
+      "key": [
+        "left",
+        "backpack",
+        "taxi",
+        "morning"
+      ],
+      "next": "I see. Can you describe the backpack?"
+    },
+    {
+      "id": "campus-class",
+      "name": "课程安排",
+      "em": "📚",
+      "topic": "校园",
+      "level": "A1",
+      "setting": "和同学讨论当天课程。",
+      "bot": "What class do we have this afternoon?",
+      "botZh": "我们今天下午有什么课？",
+      "hint": "We have English at two o’clock.",
+      "key": [
+        "english",
+        "two",
+        "clock"
+      ],
+      "next": "Great! Did you finish the homework?"
+    },
+    {
+      "id": "library-book",
+      "name": "图书馆借书",
+      "em": "📖",
+      "topic": "校园",
+      "level": "A2",
+      "setting": "向图书馆老师咨询一本书。",
+      "bot": "Hello! Are you looking for a book?",
+      "botZh": "你好！你在找一本书吗？",
+      "hint": "Yes, I need a book about world history.",
+      "key": [
+        "yes",
+        "need",
+        "book",
+        "about",
+        "world",
+        "history"
+      ],
+      "next": "Let me check the catalog for you."
+    },
+    {
+      "id": "study-plan",
+      "name": "学习计划",
+      "em": "📝",
+      "topic": "校园",
+      "level": "A2",
+      "setting": "朋友问你的英语学习计划。",
+      "bot": "How do you practice English every day?",
+      "botZh": "你每天如何练习英语？",
+      "hint": "I learn ten words and listen to podcasts.",
+      "key": [
+        "learn",
+        "ten",
+        "words",
+        "listen",
+        "podcasts"
+      ],
+      "next": "That is a good habit! What podcasts do you like?"
+    },
+    {
+      "id": "teacher-help",
+      "name": "请教老师",
+      "em": "🎓",
+      "topic": "校园",
+      "level": "A2",
+      "setting": "有一道题看不懂，向老师求助。",
+      "bot": "Hi! Do you have a question about the lesson?",
+      "botZh": "你好！你对这节课有问题吗？",
+      "hint": "Yes, could you explain this grammar rule again?",
+      "key": [
+        "yes",
+        "could",
+        "explain",
+        "grammar",
+        "rule",
+        "again"
+      ],
+      "next": "Of course. Which part is confusing?"
+    },
+    {
+      "id": "office-meeting",
+      "name": "安排会议",
+      "em": "💼",
+      "topic": "职场",
+      "level": "A2",
+      "setting": "和同事确定会议时间。",
+      "bot": "Can we schedule a meeting for Friday morning?",
+      "botZh": "我们能安排在周五上午开会吗？",
+      "hint": "Friday morning works for me. What time?",
+      "key": [
+        "friday",
+        "morning",
+        "works",
+        "what",
+        "time"
+      ],
+      "next": "How about ten thirty?"
+    },
+    {
+      "id": "job-interview",
+      "name": "工作面试",
+      "em": "🤝",
+      "topic": "职场",
+      "level": "B1",
+      "setting": "面试官问你过去的工作经验。",
+      "bot": "Tell me about a project you are proud of.",
+      "botZh": "请介绍一个让你自豪的项目。",
+      "hint": "I helped my team finish a difficult project on time.",
+      "key": [
+        "helped",
+        "team",
+        "finish",
+        "difficult",
+        "project",
+        "time"
+      ],
+      "next": "What was the biggest challenge you faced?"
+    },
+    {
+      "id": "email-request",
+      "name": "请求帮忙",
+      "em": "📧",
+      "topic": "职场",
+      "level": "B1",
+      "setting": "想请同事审核一份报告。",
+      "bot": "Hi! What can I help you with today?",
+      "botZh": "你好！今天我能帮你什么？",
+      "hint": "Could you review my report before tomorrow?",
+      "key": [
+        "could",
+        "review",
+        "report",
+        "before",
+        "tomorrow"
+      ],
+      "next": "Sure. When do you need my feedback?"
+    },
+    {
+      "id": "presentation",
+      "name": "做演讲",
+      "em": "🎤",
+      "topic": "职场",
+      "level": "B1",
+      "setting": "练习向同事介绍你的方案。",
+      "bot": "Could you briefly explain your proposal?",
+      "botZh": "你能简要介绍一下你的方案吗？",
+      "hint": "Our plan can reduce costs and improve efficiency.",
+      "key": [
+        "our",
+        "plan",
+        "reduce",
+        "costs",
+        "improve",
+        "efficiency"
+      ],
+      "next": "What evidence supports your idea?"
+    },
+    {
+      "id": "remote-work",
+      "name": "远程办公",
+      "em": "💻",
+      "topic": "职场",
+      "level": "B1",
+      "setting": "和主管讨论远程办公。",
+      "bot": "Would you like to work remotely next week?",
+      "botZh": "下周你想远程办公吗？",
+      "hint": "Yes, I can work from home on Monday and Tuesday.",
+      "key": [
+        "yes",
+        "work",
+        "from",
+        "home",
+        "monday",
+        "tuesday"
+      ],
+      "next": "How will you stay in touch with the team?"
+    },
+    {
+      "id": "doctor-visit",
+      "name": "描述不舒服",
+      "em": "🩺",
+      "topic": "健康",
+      "level": "A2",
+      "setting": "在诊所向医生描述症状。",
+      "bot": "Hello. What brings you here today?",
+      "botZh": "你好。今天有什么不舒服？",
+      "hint": "I have a headache and a sore throat.",
+      "key": [
+        "headache",
+        "sore",
+        "throat"
+      ],
+      "next": "How long have you felt this way?"
+    },
+    {
+      "id": "pharmacy",
+      "name": "在药店买药",
+      "em": "💊",
+      "topic": "健康",
+      "level": "A2",
+      "setting": "到药店咨询感冒药。",
+      "bot": "Good afternoon! How can I help you?",
+      "botZh": "下午好！您需要什么帮助？",
+      "hint": "Do you have anything for a runny nose?",
+      "key": [
+        "anything",
+        "runny",
+        "nose"
+      ],
+      "next": "Do you have any medicine allergies?"
+    },
+    {
+      "id": "exercise",
+      "name": "锻炼习惯",
+      "em": "🏃",
+      "topic": "健康",
+      "level": "A2",
+      "setting": "和朋友讨论锻炼习惯。",
+      "bot": "How often do you exercise?",
+      "botZh": "你多久锻炼一次？",
+      "hint": "I go running three times a week.",
+      "key": [
+        "running",
+        "three",
+        "times",
+        "week"
+      ],
+      "next": "What motivates you to keep going?"
+    },
+    {
+      "id": "sleep",
+      "name": "睡眠问题",
+      "em": "🌙",
+      "topic": "健康",
+      "level": "B1",
+      "setting": "朋友问你如何改善睡眠。",
+      "bot": "Have you been sleeping well recently?",
+      "botZh": "你最近睡得好吗？",
+      "hint": "Not really. I often stay up too late.",
+      "key": [
+        "not",
+        "really",
+        "often",
+        "stay",
+        "too",
+        "late"
+      ],
+      "next": "What could you change in your evening routine?"
+    },
+    {
+      "id": "complaint-hotel",
+      "name": "处理酒店问题",
+      "em": "🛎️",
+      "topic": "旅行",
+      "level": "B1",
+      "setting": "酒店空调坏了，礼貌说明问题。",
+      "bot": "Hello, how can I assist you?",
+      "botZh": "你好，我可以怎样帮你？",
+      "hint": "The air conditioner in my room is not working.",
+      "key": [
+        "air",
+        "conditioner",
+        "room",
+        "not",
+        "working"
+      ],
+      "next": "I am sorry. Would you prefer a new room?"
+    },
+    {
+      "id": "return-item",
+      "name": "商店退货",
+      "em": "🧾",
+      "topic": "生活",
+      "level": "B1",
+      "setting": "买的鞋子尺码不合适。",
+      "bot": "Hello! Is there a problem with your purchase?",
+      "botZh": "你好！你买的东西有什么问题吗？",
+      "hint": "These shoes are too small. Could I exchange them?",
+      "key": [
+        "these",
+        "shoes",
+        "too",
+        "small",
+        "could",
+        "exchange",
+        "them"
+      ],
+      "next": "Of course. Do you have the receipt?"
+    },
+    {
+      "id": "movie-opinion",
+      "name": "表达电影观点",
+      "em": "🎬",
+      "topic": "日常",
+      "level": "B1",
+      "setting": "和朋友聊刚看过的电影。",
+      "bot": "What did you think of the movie?",
+      "botZh": "你觉得这部电影怎么样？",
+      "hint": "I enjoyed the story, but the ending felt rushed.",
+      "key": [
+        "enjoyed",
+        "story",
+        "but",
+        "ending",
+        "felt",
+        "rushed"
+      ],
+      "next": "Interesting. How would you change the ending?"
+    },
+    {
+      "id": "environment",
+      "name": "谈环保",
+      "em": "🌱",
+      "topic": "日常",
+      "level": "B1",
+      "setting": "讨论生活中如何减少浪费。",
+      "bot": "What can people do to reduce plastic waste?",
+      "botZh": "人们可以怎样减少塑料垃圾？",
+      "hint": "We can carry reusable bags and bottles.",
+      "key": [
+        "carry",
+        "reusable",
+        "bags",
+        "bottles"
+      ],
+      "next": "What makes that difficult for some people?"
+    },
+    {
+      "id": "travel-choice",
+      "name": "旅行选择",
+      "em": "🧳",
+      "topic": "旅行",
+      "level": "B1",
+      "setting": "朋友问你更喜欢自由行还是跟团。",
+      "bot": "Do you prefer traveling alone or with a group?",
+      "botZh": "你更喜欢独自旅行还是跟团？",
+      "hint": "I prefer traveling independently because I like flexibility.",
+      "key": [
+        "prefer",
+        "traveling",
+        "independently",
+        "because",
+        "like",
+        "flexibility"
+      ],
+      "next": "What is one downside of that choice?"
+    },
+    {
+      "id": "negotiation",
+      "name": "合作协商",
+      "em": "📊",
+      "topic": "职场",
+      "level": "B1",
+      "setting": "讨论项目交付时间。",
+      "bot": "Can your team finish this task by Wednesday?",
+      "botZh": "你们团队能在周三前完成任务吗？",
+      "hint": "Wednesday is difficult, but Friday is realistic.",
+      "key": [
+        "wednesday",
+        "difficult",
+        "but",
+        "friday",
+        "realistic"
+      ],
+      "next": "What would help your team deliver earlier?"
+    },
+    {
+      "id": "university-choice",
+      "name": "大学专业",
+      "em": "🏫",
+      "topic": "校园",
+      "level": "B1",
+      "setting": "和同学讨论专业选择。",
+      "bot": "Why did you choose your university major?",
+      "botZh": "你为什么选择这个大学专业？",
+      "hint": "I chose engineering because I enjoy solving problems.",
+      "key": [
+        "chose",
+        "engineering",
+        "because",
+        "enjoy",
+        "solving",
+        "problems"
+      ],
+      "next": "Has your opinion changed since you started?"
+    },
+    {
+      "id": "healthy-food",
+      "name": "健康饮食",
+      "em": "🥗",
+      "topic": "健康",
+      "level": "B1",
+      "setting": "讨论如何保持均衡饮食。",
+      "bot": "What do you think makes a healthy diet?",
+      "botZh": "你认为怎样才算健康饮食？",
+      "hint": "Eating vegetables and enough protein is important.",
+      "key": [
+        "eating",
+        "vegetables",
+        "enough",
+        "protein",
+        "important"
+      ],
+      "next": "How do you plan meals during a busy week?"
     }
   ]
 }
