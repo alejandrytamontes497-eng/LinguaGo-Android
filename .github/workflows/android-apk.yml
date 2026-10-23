@@ -17,7 +17,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
       - name: Extract project
         run: unzip -q LinguaGo-Mobile-V2-Android-iPhone-Source.zip
       - name: Build APK
