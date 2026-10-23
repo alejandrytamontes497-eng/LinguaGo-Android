@@ -1,0 +1,1399 @@
+{
+  "version": 1,
+  "updated": "2026-10-23",
+  "description": "LinguaGo 可联网扩充题库；每天任务只是打卡目标，课程可以无限次练习。",
+  "words": [
+    {
+      "w": "hello",
+      "cn": "你好",
+      "ex": "Hello, nice to meet you.",
+      "exZh": "你好，很高兴认识你。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "👋",
+      "ipa": "/həlˈoʊ/"
+    },
+    {
+      "w": "family",
+      "cn": "家庭",
+      "ex": "My family lives in a small town.",
+      "exZh": "我的家人住在一个小镇。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "🏠",
+      "ipa": "/fˈæməli/"
+    },
+    {
+      "w": "friend",
+      "cn": "朋友",
+      "ex": "My friend is learning English too.",
+      "exZh": "我的朋友也在学英语。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "🤝",
+      "ipa": "/fɹˈɛnd/"
+    },
+    {
+      "w": "breakfast",
+      "cn": "早餐",
+      "ex": "I usually eat breakfast at seven.",
+      "exZh": "我通常七点吃早餐。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "🥐",
+      "ipa": "/bɹˈɛkfəst/"
+    },
+    {
+      "w": "dinner",
+      "cn": "晚餐",
+      "ex": "We have dinner together every evening.",
+      "exZh": "我们每天晚上一起吃晚餐。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "🍽️",
+      "ipa": "/dˈɪnɚ/"
+    },
+    {
+      "w": "weather",
+      "cn": "天气",
+      "ex": "The weather is sunny today.",
+      "exZh": "今天天气晴朗。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "☀️",
+      "ipa": "/wˈɛðɚ/"
+    },
+    {
+      "w": "tomorrow",
+      "cn": "明天",
+      "ex": "I will call you tomorrow.",
+      "exZh": "我明天给你打电话。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "📅",
+      "ipa": "/təmˈɑɹˌoʊ/"
+    },
+    {
+      "w": "yesterday",
+      "cn": "昨天",
+      "ex": "I watched a movie yesterday.",
+      "exZh": "我昨天看了一部电影。",
+      "topic": "日常",
+      "level": "A1",
+      "em": "🎬",
+      "ipa": "/jˈɛstɚdˌeɪ/"
+    },
+    {
+      "w": "usually",
+      "cn": "通常",
+      "ex": "I usually go to bed before eleven.",
+      "exZh": "我通常十一点前睡觉。",
+      "topic": "日常",
+      "level": "A2",
+      "em": "🌙",
+      "ipa": "/jˈuʒəwəli/"
+    },
+    {
+      "w": "important",
+      "cn": "重要的",
+      "ex": "Sleep is important for your health.",
+      "exZh": "睡眠对你的健康很重要。",
+      "topic": "日常",
+      "level": "A2",
+      "em": "⭐",
+      "ipa": "/ˌɪmpˈɔɹtənt/"
+    },
+    {
+      "w": "polite",
+      "cn": "有礼貌的",
+      "ex": "It is polite to say thank you.",
+      "exZh": "说谢谢是有礼貌的表现。",
+      "topic": "日常",
+      "level": "A2",
+      "em": "🙂",
+      "ipa": "/pəlˈaɪt/"
+    },
+    {
+      "w": "neighbor",
+      "cn": "邻居",
+      "ex": "My neighbor has a friendly dog.",
+      "exZh": "我的邻居有一只友好的狗。",
+      "topic": "日常",
+      "level": "A2",
+      "em": "🐶",
+      "ipa": "/nˈeɪbɚ/"
+    },
+    {
+      "w": "recipe",
+      "cn": "食谱",
+      "ex": "This recipe is easy to follow.",
+      "exZh": "这个食谱很容易照着做。",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🥘",
+      "ipa": "/ɹˈɛsəpi/"
+    },
+    {
+      "w": "vegetable",
+      "cn": "蔬菜",
+      "ex": "I eat vegetables every day.",
+      "exZh": "我每天吃蔬菜。",
+      "topic": "生活",
+      "level": "A1",
+      "em": "🥦",
+      "ipa": "/vˈɛdʒtəbəl/"
+    },
+    {
+      "w": "market",
+      "cn": "市场",
+      "ex": "We buy fresh fruit at the market.",
+      "exZh": "我们在市场买新鲜水果。",
+      "topic": "生活",
+      "level": "A1",
+      "em": "🍎",
+      "ipa": "/mˈɑɹkət/"
+    },
+    {
+      "w": "discount",
+      "cn": "折扣",
+      "ex": "Does this jacket have a discount?",
+      "exZh": "这件夹克有折扣吗？",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🛍️",
+      "ipa": "/dɪskˈaʊnt/"
+    },
+    {
+      "w": "receipt",
+      "cn": "收据",
+      "ex": "Could I have a receipt, please?",
+      "exZh": "可以给我一张收据吗？",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🧾",
+      "ipa": "/ɹɪsˈit/"
+    },
+    {
+      "w": "price",
+      "cn": "价格",
+      "ex": "What is the price of this ticket?",
+      "exZh": "这张票多少钱？",
+      "topic": "生活",
+      "level": "A1",
+      "em": "💰",
+      "ipa": "/pɹˈaɪs/"
+    },
+    {
+      "w": "comfortable",
+      "cn": "舒适的",
+      "ex": "This chair is very comfortable.",
+      "exZh": "这把椅子非常舒服。",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🪑",
+      "ipa": "/kˈʌmfɚtəbəl/"
+    },
+    {
+      "w": "repair",
+      "cn": "修理",
+      "ex": "I need to repair my bicycle.",
+      "exZh": "我需要修理我的自行车。",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🔧",
+      "ipa": "/ɹɪpˈɛɹ/"
+    },
+    {
+      "w": "appointment",
+      "cn": "预约",
+      "ex": "I made an appointment with the dentist.",
+      "exZh": "我预约了牙医。",
+      "topic": "生活",
+      "level": "A2",
+      "em": "📆",
+      "ipa": "/əpˈɔɪntmənt/"
+    },
+    {
+      "w": "customer",
+      "cn": "顾客",
+      "ex": "The customer ordered a hot tea.",
+      "exZh": "那位顾客点了一杯热茶。",
+      "topic": "生活",
+      "level": "A2",
+      "em": "🍵",
+      "ipa": "/kˈʌstəmɚ/"
+    },
+    {
+      "w": "exchange",
+      "cn": "兑换；交换",
+      "ex": "Can I exchange this shirt for a larger one?",
+      "exZh": "我能把这件衬衫换大一码吗？",
+      "topic": "生活",
+      "level": "B1",
+      "em": "👕",
+      "ipa": "/ɪkstʃˈeɪndʒ/"
+    },
+    {
+      "w": "refund",
+      "cn": "退款",
+      "ex": "I would like to request a refund.",
+      "exZh": "我想申请退款。",
+      "topic": "生活",
+      "level": "B1",
+      "em": "💸",
+      "ipa": "/ɹɪfˈʌnd/"
+    },
+    {
+      "w": "passport",
+      "cn": "护照",
+      "ex": "Please show your passport at the airport.",
+      "exZh": "请在机场出示护照。",
+      "topic": "旅行",
+      "level": "A1",
+      "em": "🛂",
+      "ipa": "/pˈæspˌɔɹt/"
+    },
+    {
+      "w": "ticket",
+      "cn": "车票；门票",
+      "ex": "I bought a train ticket online.",
+      "exZh": "我在网上买了一张火车票。",
+      "topic": "旅行",
+      "level": "A1",
+      "em": "🎟️",
+      "ipa": "/tˈɪkət/"
+    },
+    {
+      "w": "airport",
+      "cn": "机场",
+      "ex": "We arrived at the airport early.",
+      "exZh": "我们很早到了机场。",
+      "topic": "旅行",
+      "level": "A1",
+      "em": "✈️",
+      "ipa": "/ˈɛɹpˌɔɹt/"
+    },
+    {
+      "w": "luggage",
+      "cn": "行李",
+      "ex": "My luggage is too heavy.",
+      "exZh": "我的行李太重了。",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "🧳",
+      "ipa": "/lˈʌɡədʒ/"
+    },
+    {
+      "w": "direction",
+      "cn": "方向",
+      "ex": "Can you tell me the direction to the hotel?",
+      "exZh": "你能告诉我去酒店的方向吗？",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "🧭",
+      "ipa": "/dɚˈɛkʃən/"
+    },
+    {
+      "w": "reservation",
+      "cn": "预订",
+      "ex": "I have a reservation for two nights.",
+      "exZh": "我预订了两晚的房间。",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "🏨",
+      "ipa": "/ɹˌɛzɚvˈeɪʃən/"
+    },
+    {
+      "w": "departure",
+      "cn": "出发",
+      "ex": "Our departure time is eight thirty.",
+      "exZh": "我们的出发时间是八点半。",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "🛫",
+      "ipa": "/dɪpˈɑɹtʃɚ/"
+    },
+    {
+      "w": "arrival",
+      "cn": "到达",
+      "ex": "The arrival time has changed.",
+      "exZh": "到达时间已经改变了。",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "🛬",
+      "ipa": "/ɚˈaɪvəl/"
+    },
+    {
+      "w": "destination",
+      "cn": "目的地",
+      "ex": "What is your final destination?",
+      "exZh": "你的最终目的地是哪里？",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "📍",
+      "ipa": "/dˌɛstənˈeɪʃən/"
+    },
+    {
+      "w": "explore",
+      "cn": "探索",
+      "ex": "We want to explore the old town.",
+      "exZh": "我们想探索这座古镇。",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "🗺️",
+      "ipa": "/ɪksplˈɔɹ/"
+    },
+    {
+      "w": "platform",
+      "cn": "站台",
+      "ex": "The train leaves from platform three.",
+      "exZh": "火车从三号站台出发。",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "🚉",
+      "ipa": "/plˈætfˌɔɹm/"
+    },
+    {
+      "w": "cancel",
+      "cn": "取消",
+      "ex": "I need to cancel my booking.",
+      "exZh": "我需要取消我的预订。",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "❌",
+      "ipa": "/kˈænsəl/"
+    },
+    {
+      "w": "subject",
+      "cn": "科目；主题",
+      "ex": "English is my favorite subject.",
+      "exZh": "英语是我最喜欢的科目。",
+      "topic": "校园",
+      "level": "A1",
+      "em": "📚",
+      "ipa": "/səbdʒˈɛkt/"
+    },
+    {
+      "w": "homework",
+      "cn": "家庭作业",
+      "ex": "I finished my homework before dinner.",
+      "exZh": "我在晚饭前完成了作业。",
+      "topic": "校园",
+      "level": "A1",
+      "em": "✏️",
+      "ipa": "/hˈoʊmwˌɝk/"
+    },
+    {
+      "w": "question",
+      "cn": "问题",
+      "ex": "Please ask a question after class.",
+      "exZh": "请在课后提一个问题。",
+      "topic": "校园",
+      "level": "A1",
+      "em": "❓",
+      "ipa": "/kwˈɛstʃən/"
+    },
+    {
+      "w": "explain",
+      "cn": "解释",
+      "ex": "Can you explain this grammar rule?",
+      "exZh": "你能解释这条语法规则吗？",
+      "topic": "校园",
+      "level": "A2",
+      "em": "💡",
+      "ipa": "/ɪksplˈeɪn/"
+    },
+    {
+      "w": "review",
+      "cn": "复习",
+      "ex": "I review new words every night.",
+      "exZh": "我每晚复习新单词。",
+      "topic": "校园",
+      "level": "A2",
+      "em": "📖",
+      "ipa": "/ɹˌivjˈu/"
+    },
+    {
+      "w": "research",
+      "cn": "研究",
+      "ex": "Our research focuses on the environment.",
+      "exZh": "我们的研究重点是环境。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "🔬",
+      "ipa": "/ɹisˈɝtʃ/"
+    },
+    {
+      "w": "experiment",
+      "cn": "实验",
+      "ex": "The experiment took two hours.",
+      "exZh": "这个实验花了两个小时。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "🧪",
+      "ipa": "/ɪkspˈɛɹəmənt/"
+    },
+    {
+      "w": "assignment",
+      "cn": "作业；任务",
+      "ex": "The assignment is due on Friday.",
+      "exZh": "这份作业周五截止。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "📝",
+      "ipa": "/əsˈaɪnmənt/"
+    },
+    {
+      "w": "conclusion",
+      "cn": "结论",
+      "ex": "We wrote a conclusion for the report.",
+      "exZh": "我们为报告写了结论。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "📄",
+      "ipa": "/kənklˈuʒən/"
+    },
+    {
+      "w": "compare",
+      "cn": "比较",
+      "ex": "Compare these two sentences carefully.",
+      "exZh": "仔细比较这两个句子。",
+      "topic": "校园",
+      "level": "A2",
+      "em": "⚖️",
+      "ipa": "/kəmpˈɛɹ/"
+    },
+    {
+      "w": "pronounce",
+      "cn": "发音",
+      "ex": "How do you pronounce this word?",
+      "exZh": "这个单词怎么发音？",
+      "topic": "校园",
+      "level": "A2",
+      "em": "🔊",
+      "ipa": "/pɹənˈaʊns/"
+    },
+    {
+      "w": "fluent",
+      "cn": "流利的",
+      "ex": "She speaks fluent English.",
+      "exZh": "她英语说得很流利。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "🗣️",
+      "ipa": "/flˈuənt/"
+    },
+    {
+      "w": "meeting",
+      "cn": "会议",
+      "ex": "Our team has a meeting at nine.",
+      "exZh": "我们的团队九点开会。",
+      "topic": "职场",
+      "level": "A1",
+      "em": "💼",
+      "ipa": "/mˈitɪŋ/"
+    },
+    {
+      "w": "manager",
+      "cn": "经理",
+      "ex": "The manager is in the office.",
+      "exZh": "经理在办公室。",
+      "topic": "职场",
+      "level": "A1",
+      "em": "👩‍💼",
+      "ipa": "/mˈænədʒɚ/"
+    },
+    {
+      "w": "email",
+      "cn": "电子邮件",
+      "ex": "Please send me the file by email.",
+      "exZh": "请通过电子邮件把文件发给我。",
+      "topic": "职场",
+      "level": "A1",
+      "em": "✉️",
+      "ipa": "/imˈeɪl/"
+    },
+    {
+      "w": "deadline",
+      "cn": "截止日期",
+      "ex": "The project deadline is next Monday.",
+      "exZh": "项目截止日期是下周一。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "⏳",
+      "ipa": "/dˈɛdlˌaɪn/"
+    },
+    {
+      "w": "project",
+      "cn": "项目",
+      "ex": "We are working on a new project.",
+      "exZh": "我们正在做一个新项目。",
+      "topic": "职场",
+      "level": "A2",
+      "em": "🧩",
+      "ipa": "/pɹˈɑdʒɛkt/"
+    },
+    {
+      "w": "colleague",
+      "cn": "同事",
+      "ex": "My colleague helped me yesterday.",
+      "exZh": "我的同事昨天帮助了我。",
+      "topic": "职场",
+      "level": "A2",
+      "em": "🤝",
+      "ipa": "/kˈɑliɡ/"
+    },
+    {
+      "w": "presentation",
+      "cn": "演示；报告",
+      "ex": "I have a presentation this afternoon.",
+      "exZh": "我今天下午有一场演示报告。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "📊",
+      "ipa": "/pɹˌɛzəntˈeɪʃən/"
+    },
+    {
+      "w": "interview",
+      "cn": "面试",
+      "ex": "She has a job interview tomorrow.",
+      "exZh": "她明天有一场工作面试。",
+      "topic": "职场",
+      "level": "A2",
+      "em": "🎤",
+      "ipa": "/ˈɪntɚvjˌu/"
+    },
+    {
+      "w": "solution",
+      "cn": "解决方案",
+      "ex": "We found a simple solution.",
+      "exZh": "我们找到了一个简单的解决方案。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "🛠️",
+      "ipa": "/səlˈuʃən/"
+    },
+    {
+      "w": "efficient",
+      "cn": "高效的",
+      "ex": "This method is more efficient.",
+      "exZh": "这个方法更高效。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "⚡",
+      "ipa": "/ɪfˈɪʃənt/"
+    },
+    {
+      "w": "priority",
+      "cn": "优先事项",
+      "ex": "Safety is our top priority.",
+      "exZh": "安全是我们的首要任务。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "🎯",
+      "ipa": "/pɹaɪˈɔɹəti/"
+    },
+    {
+      "w": "negotiate",
+      "cn": "协商",
+      "ex": "We need to negotiate the price.",
+      "exZh": "我们需要协商价格。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "🤝",
+      "ipa": "/nəɡˈoʊʃiˌeɪt/"
+    },
+    {
+      "w": "exercise",
+      "cn": "锻炼",
+      "ex": "I exercise three times a week.",
+      "exZh": "我每周锻炼三次。",
+      "topic": "健康",
+      "level": "A1",
+      "em": "🏃",
+      "ipa": "/ˈɛksɚsˌaɪz/"
+    },
+    {
+      "w": "medicine",
+      "cn": "药物",
+      "ex": "Take this medicine after lunch.",
+      "exZh": "午饭后服用这种药。",
+      "topic": "健康",
+      "level": "A2",
+      "em": "💊",
+      "ipa": "/mˈɛdəsən/"
+    },
+    {
+      "w": "headache",
+      "cn": "头痛",
+      "ex": "I have a headache today.",
+      "exZh": "我今天头痛。",
+      "topic": "健康",
+      "level": "A2",
+      "em": "🤕",
+      "ipa": "/hˈɛdˌeɪk/"
+    },
+    {
+      "w": "rest",
+      "cn": "休息",
+      "ex": "You should get some rest.",
+      "exZh": "你应该休息一下。",
+      "topic": "健康",
+      "level": "A1",
+      "em": "😴",
+      "ipa": "/ɹˈɛst/"
+    },
+    {
+      "w": "healthy",
+      "cn": "健康的",
+      "ex": "Walking is a healthy habit.",
+      "exZh": "散步是一种健康的习惯。",
+      "topic": "健康",
+      "level": "A1",
+      "em": "🍀",
+      "ipa": "/hˈɛlθi/"
+    },
+    {
+      "w": "symptom",
+      "cn": "症状",
+      "ex": "Tell the doctor about your symptoms.",
+      "exZh": "告诉医生你的症状。",
+      "topic": "健康",
+      "level": "B1",
+      "em": "🩺",
+      "ipa": "/sˈɪmptəm/"
+    },
+    {
+      "w": "recover",
+      "cn": "恢复",
+      "ex": "I hope you recover soon.",
+      "exZh": "希望你早日康复。",
+      "topic": "健康",
+      "level": "B1",
+      "em": "🌼",
+      "ipa": "/ɹɪkˈʌvɚ/"
+    },
+    {
+      "w": "balance",
+      "cn": "平衡",
+      "ex": "Work and rest need a good balance.",
+      "exZh": "工作与休息需要良好的平衡。",
+      "topic": "健康",
+      "level": "B1",
+      "em": "⚖️",
+      "ipa": "/bˈæləns/"
+    },
+    {
+      "w": "challenge",
+      "cn": "挑战",
+      "ex": "Learning English is a fun challenge.",
+      "exZh": "学英语是一项有趣的挑战。",
+      "topic": "日常",
+      "level": "A2",
+      "em": "🏅",
+      "ipa": "/tʃˈæləndʒ/"
+    },
+    {
+      "w": "curious",
+      "cn": "好奇的",
+      "ex": "Children are curious about the world.",
+      "exZh": "孩子们对世界充满好奇。",
+      "topic": "日常",
+      "level": "B1",
+      "em": "🔎",
+      "ipa": "/kjˈʊɹiəs/"
+    },
+    {
+      "w": "patient",
+      "cn": "有耐心的",
+      "ex": "Be patient when learning new words.",
+      "exZh": "学习新单词时要有耐心。",
+      "topic": "日常",
+      "level": "B1",
+      "em": "🌻",
+      "ipa": "/pˈeɪʃənt/"
+    },
+    {
+      "w": "achieve",
+      "cn": "实现",
+      "ex": "You can achieve your goals with practice.",
+      "exZh": "通过练习你可以实现目标。",
+      "topic": "日常",
+      "level": "B1",
+      "em": "🏆",
+      "ipa": "/ətʃˈiv/"
+    },
+    {
+      "w": "reliable",
+      "cn": "可靠的",
+      "ex": "He is a reliable team member.",
+      "exZh": "他是一位可靠的团队成员。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "🛡️",
+      "ipa": "/ɹɪlˈaɪəbəl/"
+    },
+    {
+      "w": "flexible",
+      "cn": "灵活的",
+      "ex": "We need a flexible schedule.",
+      "exZh": "我们需要灵活的日程安排。",
+      "topic": "职场",
+      "level": "B1",
+      "em": "🔁",
+      "ipa": "/flˈɛksəbəl/"
+    },
+    {
+      "w": "forecast",
+      "cn": "预报",
+      "ex": "The weather forecast says it will rain.",
+      "exZh": "天气预报说会下雨。",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "🌦️",
+      "ipa": "/fˈɔɹkˌæst/"
+    },
+    {
+      "w": "traffic",
+      "cn": "交通",
+      "ex": "The traffic is heavy this morning.",
+      "exZh": "今天早上交通很拥堵。",
+      "topic": "旅行",
+      "level": "A2",
+      "em": "🚗",
+      "ipa": "/tɹˈæfɪk/"
+    },
+    {
+      "w": "transfer",
+      "cn": "换乘",
+      "ex": "You need to transfer at the next station.",
+      "exZh": "你需要在下一站换乘。",
+      "topic": "旅行",
+      "level": "B1",
+      "em": "🚇",
+      "ipa": "/tɹænsfˈɝ/"
+    },
+    {
+      "w": "volunteer",
+      "cn": "志愿者",
+      "ex": "She works as a volunteer at school.",
+      "exZh": "她在学校做志愿者。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "🙋",
+      "ipa": "/vˌɑləntˈɪɹ/"
+    },
+    {
+      "w": "summary",
+      "cn": "摘要",
+      "ex": "Write a short summary of the article.",
+      "exZh": "为这篇文章写一个简短摘要。",
+      "topic": "校园",
+      "level": "B1",
+      "em": "🗒️",
+      "ipa": "/sˈʌmɚi/"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "online-001",
+      "level": "A1",
+      "topic": "日常",
+      "en": "At the Bakery",
+      "place": "面包店",
+      "dialog": "A: Good morning. Can I help you?\nB: Yes, two pieces of bread, please.\nA: Anything to drink?\nB: A bottle of water, please.",
+      "zhLines": [
+        "A：早上好，有什么可以帮您？",
+        "B：是的，请给我两块面包。",
+        "A：要喝点什么吗？",
+        "B：请给我一瓶水。"
+      ],
+      "ask": "What drink does the customer want?",
+      "opts": [
+        "Coffee",
+        "Tea",
+        "Water",
+        "Juice"
+      ],
+      "answer": 2,
+      "explain": "顾客想要一瓶水。",
+      "em": "🥖"
+    },
+    {
+      "id": "online-002",
+      "level": "A1",
+      "topic": "日常",
+      "en": "The New Neighbor",
+      "place": "新邻居",
+      "dialog": "A: Hello, I am your new neighbor.\nB: Welcome! My name is Anna.\nA: Nice to meet you, Anna.\nB: Nice to meet you too.",
+      "zhLines": [
+        "A：你好，我是你的新邻居。",
+        "B：欢迎！我叫安娜。",
+        "A：很高兴认识你，安娜。",
+        "B：我也很高兴认识你。"
+      ],
+      "ask": "What is the woman's name?",
+      "opts": [
+        "Emma",
+        "Anna",
+        "Lucy",
+        "Mary"
+      ],
+      "answer": 1,
+      "explain": "女士说她的名字是 Anna。",
+      "em": "🏡"
+    },
+    {
+      "id": "online-003",
+      "level": "A1",
+      "topic": "日常",
+      "en": "Dinner Time",
+      "place": "晚餐时间",
+      "dialog": "A: What time is dinner tonight?\nB: We will eat at six thirty.\nA: Great, I will be home by six.\nB: See you soon!",
+      "zhLines": [
+        "A：今晚几点吃晚饭？",
+        "B：我们六点半吃。",
+        "A：太好了，我六点之前到家。",
+        "B：一会儿见！"
+      ],
+      "ask": "When will they have dinner?",
+      "opts": [
+        "Five thirty",
+        "Six o'clock",
+        "Six thirty",
+        "Seven thirty"
+      ],
+      "answer": 2,
+      "explain": "对话中说晚餐时间是六点半。",
+      "em": "🍲"
+    },
+    {
+      "id": "online-004",
+      "level": "A2",
+      "topic": "日常",
+      "en": "Weekend Weather",
+      "place": "周末天气",
+      "dialog": "A: Is it going to rain on Saturday?\nB: No, the forecast says it will be sunny.\nA: Great! Let's go for a walk.\nB: That sounds lovely.",
+      "zhLines": [
+        "A：周六会下雨吗？",
+        "B：不会，预报说会晴天。",
+        "A：太好了！我们去散步吧。",
+        "B：听起来不错。"
+      ],
+      "ask": "What is the weather on Saturday?",
+      "opts": [
+        "Snowy",
+        "Sunny",
+        "Rainy",
+        "Windy"
+      ],
+      "answer": 1,
+      "explain": "周六预计晴天。",
+      "em": "☀️"
+    },
+    {
+      "id": "online-005",
+      "level": "A2",
+      "topic": "日常",
+      "en": "A Birthday Gift",
+      "place": "生日礼物",
+      "dialog": "A: What should we buy for Emma's birthday?\nB: She loves books about travel.\nA: How about a travel guide?\nB: Perfect. Let's buy that.",
+      "zhLines": [
+        "A：我们给艾玛买什么生日礼物？",
+        "B：她喜欢旅行类书籍。",
+        "A：买本旅行指南怎么样？",
+        "B：太好了，就买这个。"
+      ],
+      "ask": "What will they buy?",
+      "opts": [
+        "A camera",
+        "A watch",
+        "A travel guide",
+        "A jacket"
+      ],
+      "answer": 2,
+      "explain": "他们决定买一本旅行指南。",
+      "em": "🎁"
+    },
+    {
+      "id": "online-006",
+      "level": "A1",
+      "topic": "生活",
+      "en": "At the Supermarket",
+      "place": "超市购物",
+      "dialog": "A: Excuse me, where can I find milk?\nB: It is next to the bread.\nA: Thank you. I need two bottles.\nB: You are welcome.",
+      "zhLines": [
+        "A：打扰一下，牛奶在哪里？",
+        "B：就在面包旁边。",
+        "A：谢谢。我需要两瓶。",
+        "B：不客气。"
+      ],
+      "ask": "Where is the milk?",
+      "opts": [
+        "Next to the bread",
+        "Near the door",
+        "Behind the cashier",
+        "On the second floor"
+      ],
+      "answer": 0,
+      "explain": "牛奶在面包旁边。",
+      "em": "🛒"
+    },
+    {
+      "id": "online-007",
+      "level": "A2",
+      "topic": "生活",
+      "en": "Returning a Shirt",
+      "place": "退换衬衫",
+      "dialog": "A: I'd like to exchange this shirt.\nB: Is there a problem with it?\nA: It's too small for me.\nB: We have a larger size.",
+      "zhLines": [
+        "A：我想换这件衬衫。",
+        "B：它有什么问题吗？",
+        "A：对我来说太小了。",
+        "B：我们有更大的尺码。"
+      ],
+      "ask": "Why does the customer want an exchange?",
+      "opts": [
+        "It is too small",
+        "It is too expensive",
+        "It is broken",
+        "It is the wrong color"
+      ],
+      "answer": 0,
+      "explain": "顾客认为衬衫太小了。",
+      "em": "👕"
+    },
+    {
+      "id": "online-008",
+      "level": "B1",
+      "topic": "生活",
+      "en": "A Broken Laptop",
+      "place": "电脑坏了",
+      "dialog": "A: My laptop stopped working yesterday.\nB: Have you tried restarting it?\nA: Yes, but the screen stays black.\nB: Let's take it to the repair shop.",
+      "zhLines": [
+        "A：我的笔记本电脑昨天坏了。",
+        "B：你试过重启吗？",
+        "A：试了，但屏幕还是黑的。",
+        "B：我们拿去维修店吧。"
+      ],
+      "ask": "What is wrong with the laptop?",
+      "opts": [
+        "It is too slow",
+        "The keyboard is missing",
+        "The screen stays black",
+        "The battery is full"
+      ],
+      "answer": 2,
+      "explain": "重启后屏幕仍然是黑的。",
+      "em": "💻"
+    },
+    {
+      "id": "online-009",
+      "level": "A1",
+      "topic": "旅行",
+      "en": "At the Airport",
+      "place": "机场值机",
+      "dialog": "A: May I see your passport, please?\nB: Here you are.\nA: Do you have any luggage?\nB: Yes, one suitcase.",
+      "zhLines": [
+        "A：可以看一下您的护照吗？",
+        "B：给您。",
+        "A：您有行李吗？",
+        "B：有，一个行李箱。"
+      ],
+      "ask": "How many suitcases does the traveler have?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 0,
+      "explain": "旅客只有一个行李箱。",
+      "em": "✈️"
+    },
+    {
+      "id": "online-010",
+      "level": "A2",
+      "topic": "旅行",
+      "en": "Buying Train Tickets",
+      "place": "购买火车票",
+      "dialog": "A: Two tickets to Oxford, please.\nB: One way or return?\nA: Return tickets, please.\nB: That will be twenty pounds.",
+      "zhLines": [
+        "A：请给我两张去牛津的车票。",
+        "B：单程还是往返？",
+        "A：往返票，谢谢。",
+        "B：总共二十英镑。"
+      ],
+      "ask": "What kind of tickets does the traveler buy?",
+      "opts": [
+        "One-way tickets",
+        "Return tickets",
+        "Bus tickets",
+        "Flight tickets"
+      ],
+      "answer": 1,
+      "explain": "旅客购买的是往返票。",
+      "em": "🚆"
+    },
+    {
+      "id": "online-011",
+      "level": "A2",
+      "topic": "旅行",
+      "en": "Hotel Check-in",
+      "place": "酒店入住",
+      "dialog": "A: Hello, I have a reservation for tonight.\nB: Certainly. What is your name?\nA: My name is David Lee.\nB: Your room is on the fifth floor.",
+      "zhLines": [
+        "A：你好，我预订了今晚的房间。",
+        "B：好的，您叫什么名字？",
+        "A：我叫大卫·李。",
+        "B：您的房间在五楼。"
+      ],
+      "ask": "Which floor is the room on?",
+      "opts": [
+        "Third",
+        "Fourth",
+        "Fifth",
+        "Sixth"
+      ],
+      "answer": 2,
+      "explain": "房间在第五层。",
+      "em": "🏨"
+    },
+    {
+      "id": "online-012",
+      "level": "B1",
+      "topic": "旅行",
+      "en": "Missed Connection",
+      "place": "错过转机",
+      "dialog": "A: My first flight was delayed by two hours.\nB: Did you miss your connecting flight?\nA: Yes, I need another ticket.\nB: The next flight leaves at seven.",
+      "zhLines": [
+        "A：我的第一趟航班晚点了两个小时。",
+        "B：你错过转机了吗？",
+        "A：是的，我需要另一张机票。",
+        "B：下一趟航班七点起飞。"
+      ],
+      "ask": "When does the next flight leave?",
+      "opts": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "answer": 2,
+      "explain": "下一趟航班七点出发。",
+      "em": "🛫"
+    },
+    {
+      "id": "online-013",
+      "level": "B1",
+      "topic": "旅行",
+      "en": "The Museum Tour",
+      "place": "博物馆参观",
+      "dialog": "A: The museum closes at five today.\nB: Is the last tour at four?\nA: Yes, and it lasts about forty minutes.\nB: Great, we can join that one.",
+      "zhLines": [
+        "A：博物馆今天五点闭馆。",
+        "B：最后一场导览是四点吗？",
+        "A：是的，大约四十分钟。",
+        "B：太好了，我们可以参加。"
+      ],
+      "ask": "How long is the tour?",
+      "opts": [
+        "Twenty minutes",
+        "Thirty minutes",
+        "Forty minutes",
+        "One hour"
+      ],
+      "answer": 2,
+      "explain": "导览大约持续四十分钟。",
+      "em": "🏛️"
+    },
+    {
+      "id": "online-014",
+      "level": "A1",
+      "topic": "校园",
+      "en": "In the Classroom",
+      "place": "教室里",
+      "dialog": "A: Please open your books to page ten.\nB: Should we read the first paragraph?\nA: Yes, read it quietly.\nB: Okay, teacher.",
+      "zhLines": [
+        "A：请把书翻到第十页。",
+        "B：我们读第一段吗？",
+        "A：是的，默读。",
+        "B：好的，老师。"
+      ],
+      "ask": "Which page should the students open?",
+      "opts": [
+        "Eight",
+        "Nine",
+        "Ten",
+        "Twelve"
+      ],
+      "answer": 2,
+      "explain": "老师要求翻到第十页。",
+      "em": "📘"
+    },
+    {
+      "id": "online-015",
+      "level": "A2",
+      "topic": "校园",
+      "en": "Library Books",
+      "place": "图书馆借书",
+      "dialog": "A: Can I borrow this book for a week?\nB: You can keep it for two weeks.\nA: That's great. Thank you!\nB: Please return it on time.",
+      "zhLines": [
+        "A：我能借这本书一周吗？",
+        "B：你可以借两周。",
+        "A：太好了，谢谢！",
+        "B：请按时归还。"
+      ],
+      "ask": "How long can the student keep the book?",
+      "opts": [
+        "One day",
+        "One week",
+        "Two weeks",
+        "One month"
+      ],
+      "answer": 2,
+      "explain": "图书管理员允许借两周。",
+      "em": "📚"
+    },
+    {
+      "id": "online-016",
+      "level": "B1",
+      "topic": "校园",
+      "en": "Research Presentation",
+      "place": "研究汇报",
+      "dialog": "A: Are you ready for tomorrow's presentation?\nB: Almost. I still need to check the data.\nA: I can help you review the charts.\nB: Thanks, that would be useful.",
+      "zhLines": [
+        "A：你准备好明天的汇报了吗？",
+        "B：差不多。我还需要检查数据。",
+        "A：我可以帮你检查图表。",
+        "B：谢谢，那会很有用。"
+      ],
+      "ask": "What does the speaker still need to do?",
+      "opts": [
+        "Print the tickets",
+        "Check the data",
+        "Book a room",
+        "Write an email"
+      ],
+      "answer": 1,
+      "explain": "发言人还需要检查数据。",
+      "em": "📊"
+    },
+    {
+      "id": "online-017",
+      "level": "B1",
+      "topic": "校园",
+      "en": "The Exam Schedule",
+      "place": "考试安排",
+      "dialog": "A: Has the exam date changed?\nB: Yes, it has moved to next Thursday.\nA: That gives us two more days.\nB: Let's use them to review.",
+      "zhLines": [
+        "A：考试日期改了吗？",
+        "B：是的，改到下周四了。",
+        "A：这样我们多了两天。",
+        "B：我们用来复习吧。"
+      ],
+      "ask": "When is the exam now?",
+      "opts": [
+        "Next Monday",
+        "Next Tuesday",
+        "Next Wednesday",
+        "Next Thursday"
+      ],
+      "answer": 3,
+      "explain": "考试改到下周四了。",
+      "em": "📝"
+    },
+    {
+      "id": "online-018",
+      "level": "A1",
+      "topic": "职场",
+      "en": "Morning Meeting",
+      "place": "晨会",
+      "dialog": "A: What time does the meeting start?\nB: At nine o'clock.\nA: Which room should I go to?\nB: Meeting room B.",
+      "zhLines": [
+        "A：会议几点开始？",
+        "B：九点。",
+        "A：我该去哪个会议室？",
+        "B：B 会议室。"
+      ],
+      "ask": "Which room is the meeting in?",
+      "opts": [
+        "Room A",
+        "Room B",
+        "Room C",
+        "Room D"
+      ],
+      "answer": 1,
+      "explain": "会议在 B 会议室。",
+      "em": "💼"
+    },
+    {
+      "id": "online-019",
+      "level": "A2",
+      "topic": "职场",
+      "en": "Sending a Report",
+      "place": "发送报告",
+      "dialog": "A: Did you finish the report?\nB: Yes, I emailed it this morning.\nA: Great. I will read it after lunch.\nB: Let me know if you have questions.",
+      "zhLines": [
+        "A：你完成报告了吗？",
+        "B：完成了，今天早上邮件发出了。",
+        "A：太好了，我午饭后看。",
+        "B：有问题告诉我。"
+      ],
+      "ask": "When was the report emailed?",
+      "opts": [
+        "Yesterday evening",
+        "This morning",
+        "After lunch",
+        "Last week"
+      ],
+      "answer": 1,
+      "explain": "报告今天早上发出了。",
+      "em": "✉️"
+    },
+    {
+      "id": "online-020",
+      "level": "B1",
+      "topic": "职场",
+      "en": "Project Deadline",
+      "place": "项目截止日",
+      "dialog": "A: Can we finish the project by Friday?\nB: We might need one extra day.\nA: Let's talk to the manager.\nB: Good idea. I'll arrange a meeting.",
+      "zhLines": [
+        "A：我们周五前能完成项目吗？",
+        "B：我们可能需要多一天。",
+        "A：我们找经理谈谈。",
+        "B：好主意，我来安排会议。"
+      ],
+      "ask": "What do they plan to do?",
+      "opts": [
+        "Cancel the project",
+        "Hire a new worker",
+        "Talk to the manager",
+        "Change the budget"
+      ],
+      "answer": 2,
+      "explain": "他们决定找经理讨论截止时间。",
+      "em": "⏱️"
+    },
+    {
+      "id": "online-021",
+      "level": "B1",
+      "topic": "职场",
+      "en": "Job Interview",
+      "place": "求职面试",
+      "dialog": "A: Why do you want to work here?\nB: I enjoy solving difficult problems.\nA: What experience do you have?\nB: I worked on similar projects for three years.",
+      "zhLines": [
+        "A：你为什么想来这里工作？",
+        "B：我喜欢解决难题。",
+        "A：你有哪些经验？",
+        "B：我做类似项目已有三年。"
+      ],
+      "ask": "How long has the candidate worked on similar projects?",
+      "opts": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Five years"
+      ],
+      "answer": 2,
+      "explain": "应聘者有三年类似项目经验。",
+      "em": "🎤"
+    },
+    {
+      "id": "online-022",
+      "level": "A1",
+      "topic": "健康",
+      "en": "At the Doctor",
+      "place": "看医生",
+      "dialog": "A: What seems to be the problem?\nB: I have a headache.\nA: Do you have a fever?\nB: No, I do not.",
+      "zhLines": [
+        "A：你哪里不舒服？",
+        "B：我头痛。",
+        "A：发烧吗？",
+        "B：不发烧。"
+      ],
+      "ask": "What problem does the patient have?",
+      "opts": [
+        "A cough",
+        "A headache",
+        "A sore foot",
+        "A fever"
+      ],
+      "answer": 1,
+      "explain": "病人说自己头痛。",
+      "em": "🩺"
+    },
+    {
+      "id": "online-023",
+      "level": "A2",
+      "topic": "健康",
+      "en": "Exercise Routine",
+      "place": "锻炼习惯",
+      "dialog": "A: Do you exercise every day?\nB: Not every day, but I run three times a week.\nA: That's a good habit.\nB: It helps me sleep better.",
+      "zhLines": [
+        "A：你每天锻炼吗？",
+        "B：不是每天，但我每周跑步三次。",
+        "A：这是个好习惯。",
+        "B：它让我睡得更好。"
+      ],
+      "ask": "How often does the person run?",
+      "opts": [
+        "Every day",
+        "Twice a month",
+        "Three times a week",
+        "Once a week"
+      ],
+      "answer": 2,
+      "explain": "他说每周跑步三次。",
+      "em": "🏃"
+    },
+    {
+      "id": "online-024",
+      "level": "B1",
+      "topic": "健康",
+      "en": "Taking a Break",
+      "place": "适当休息",
+      "dialog": "A: You look tired. Have you been working late?\nB: Yes, I stayed up three nights this week.\nA: You should take a break this weekend.\nB: You're right. I need some rest.",
+      "zhLines": [
+        "A：你看起来很累。最近加班了吗？",
+        "B：是的，这周有三个晚上熬夜。",
+        "A：你周末应该休息一下。",
+        "B：你说得对，我需要休息。"
+      ],
+      "ask": "What does the friend recommend?",
+      "opts": [
+        "More coffee",
+        "Taking a break",
+        "Working later",
+        "Buying a laptop"
+      ],
+      "answer": 1,
+      "explain": "朋友建议周末休息。",
+      "em": "🛋️"
+    },
+    {
+      "id": "online-025",
+      "level": "B1",
+      "topic": "健康",
+      "en": "Healthy Meals",
+      "place": "健康饮食",
+      "dialog": "A: I want to eat more healthily.\nB: Try adding vegetables to your lunch.\nA: Should I avoid all carbohydrates?\nB: No, a balanced diet is better.",
+      "zhLines": [
+        "A：我想吃得更健康。",
+        "B：试试午餐多加些蔬菜。",
+        "A：我应该完全不吃碳水吗？",
+        "B：不用，均衡饮食更好。"
+      ],
+      "ask": "What does the speaker recommend?",
+      "opts": [
+        "Skipping lunch",
+        "Eating only fruit",
+        "A balanced diet",
+        "Avoiding all vegetables"
+      ],
+      "answer": 2,
+      "explain": "说话者推荐均衡饮食。",
+      "em": "🥗"
+    }
+  ]
+}
