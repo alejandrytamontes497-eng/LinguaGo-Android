@@ -1,0 +1,36 @@
+name: Build LinguaGo APK
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+      - name: Extract project
+        run: unzip -q LinguaGo-Mobile-V2-Android-iPhone-Source.zip
+      - name: Build APK
+        working-directory: LinguaGo-Mobile-V2
+        run: |
+          npm install --no-audit --no-fund
+          npx cap add android
+          npx capacitor-assets generate --android
+          npx cap sync android
+          cd android
+          bash ./gradlew --no-daemon assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LinguaGo-APK
+          path: LinguaGo-Mobile-V2/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
